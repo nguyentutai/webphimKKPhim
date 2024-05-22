@@ -467,10 +467,10 @@ const ListMovieSinge = () => {
                         ) : (
                             <div className="load-movie-false">
                                 <div className="chidren-load-movie-false">
-                                    <img src="../../../public/logo/logoKKPhim.png" alt="" />
+                                    <img src="../logo/logoKKPhim.png" alt="" />
                                 </div>
                                 <p>Rất tiếc, KKPhim không tìm thấy kết quả phụ hợp</p>
-                                <img className="mat-buon" src="../../../public/logo/mat-buon.png" alt="" />
+                                <img className="mat-buon" src="../logo/mat-buon.png" alt="" />
                                 <button onClick={handleReset}>Nhấn vào đây để quay lại</button>
                             </div>
                         )}

@@ -15,7 +15,7 @@ const FooterPage = () => {
                 <div className="content-footer-left">
                     <h3>GIỚI THIỆU</h3>
                     <Link to={''}>
-                        <img src="../../public/logo/logoKKPhim.png" alt="" />
+                        <img src="../logo/logoKKPhim.png" alt="" />
                     </Link>
                     <p>KKPhim nơi phát trực tuyến các bộ phim mới nhất miễn phí Full HD. Nguồn phim được tổng hợp trên mạng và không được lưu trữ trên máy chủ.</p>
                 </div>

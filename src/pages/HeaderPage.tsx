@@ -74,7 +74,7 @@ const Header = () => {
                 <div className="container header">
                     <div className="logo">
                         <Link to={''}>
-                            <img src="../public/logo/logoKKPhim.png" alt="Logo" />
+                            <img src="../logo/logoKKPhim.png" alt="Logo" />
                         </Link>
                     </div>
                     <div className="search">
