@@ -677,6 +677,7 @@ body {
     max-width: 100%;
     position: relative;
     margin-top: 20px;
+    max-height: 357px;
 }
 
 .item-movie-image {
@@ -714,7 +715,7 @@ body {
     position: absolute;
     top: 45%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -45%);
     font-size: 40px;
     color: #ff8c00;
 }
@@ -767,7 +768,7 @@ body {
 }
 
 .mat-buon {
-    width: 200px;
+    width: 150px;
     max-width: 100%;
     display: block;
     margin: 0 auto;
@@ -779,15 +780,16 @@ body {
     box-shadow: rgba(247, 247, 247, 0.786) 0px 1px 3px, rgba(173, 173, 173, 0.567) 0px 1px 2px;
 }
 .load-movie-false img {
+    width: 200px;
     max-width: 100%;
 }
 .load-movie-false {
     margin-top: 40px;
     border-radius: 20px;
-    height: 550px;
+    height: 400px;
     max-height: 100%;
     max-width: 100%;
-    margin-top: 100px;
+    margin: 100px auto;
     text-align: center;
     color: white;
     font-size: 23px;
@@ -795,6 +797,9 @@ body {
     font-weight: 600;
     padding: 20px;
     box-shadow: rgba(220, 220, 220, 0.47) 0px 6px 24px 0px, rgba(245, 245, 245, 0.382) 0px 0px 0px 1px;
+}
+.load-movie-false p {
+    font-size: 16px;
 }
 .load-movie-false button {
     padding: 13px 20px;
