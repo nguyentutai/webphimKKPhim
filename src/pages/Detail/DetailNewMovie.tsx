@@ -57,7 +57,7 @@ const DetailNewMovie = () => {
                         </p>
                     </div>
                     <div className="watch-movie-singe">
-                        <iframe name="movie" src={currentVideoUrl} allowFullScreen></iframe>
+                        <iframe name="movie" src={currentVideoUrl} allowFullScreen ></iframe>
                     </div>
                     <div className="episode-list">
                         {movies?.episodes[0]?.server_data?.map((item: any, index: any) => (

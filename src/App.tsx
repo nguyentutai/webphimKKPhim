@@ -11,6 +11,7 @@ import ListMovieSeries from "./pages/ListMovie/ListMovieSeries"
 import ListMovieCarton from "./pages/ListMovie/ListMovieCarton"
 import ListTVShow from "./pages/ListMovie/ListTVShow"
 import FooterPage from "./pages/FooterPage"
+import ScrollToTop from "./components/ScrollPage"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
     <>
       <Header />
       {/* Router */}
+      <ScrollToTop />
       <Routes>
         <Route path='/home' element={<HomePage />} />
         <Route path='' element={<HomePage />} />
@@ -30,6 +32,7 @@ function App() {
         <Route path='/hoat-hinh/:tenphim' element={<DetailNewMovie />} />
         <Route path='/phim-moi-cap-nhat/:tenphim' element={<DetailNewMovie />} />
         <Route path='/phim/:tenphim' element={<DetailNewMovie />} />
+        <Route path='/tv-shows/:tenphim' element={<DetailNewMovie />} />
         <Route path='/phim-le' element={
           <ListMovieSinge />
         } />

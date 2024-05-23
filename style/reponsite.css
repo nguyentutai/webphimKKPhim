@@ -10,17 +10,29 @@
     .theater-screening {
         display: none;
     }
+
     .slider-container {
         width: 100%;
     }
+
     .menu-respon-search {
         display: none;
     }
+
     .menu-respon-header-category {
         margin-top: 0px;
     }
+
     .detail-movie-aside {
         width: 100%;
+    }
+    .list-movie-aside {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .year,.country {
+        padding: 10px 35px;
     }
 }
 
@@ -28,26 +40,41 @@
     .search {
         display: none;
     }
+
     .menu-respon-search {
         display: block;
     }
+
     .menu-respon-header-category {
         margin-top: 80px;
     }
+
     .menu-res {
         width: 250px !important;
     }
+
     .menu-res input {
         font-size: 12px;
     }
+
     .list-search-chid {
         width: 250px !important;
     }
+
     .search-content h4 {
         font-size: 13px;
     }
+
     .search-content p {
         font-size: 12px;
+    }
+
+    .filter {
+        display: none;
+    }
+
+    .list-movie-aside {
+        justify-content: space-around;
     }
 }
 
@@ -56,12 +83,15 @@
         width: 170px !important;
         font-size: 12px;
     }
+
     .list-search-chid {
         width: 170px !important;
     }
+
     .search-content h4 {
         font-size: 12px;
     }
+
     .search-content p {
         font-size: 11px;
     }
@@ -72,12 +102,15 @@
         width: 140px !important;
         font-size: 12px;
     }
+
     .list-search-chid {
         width: 140px !important;
     }
+
     .search-content h4 {
         font-size: 12px;
     }
+
     .search-content p {
         font-size: 11px;
     }

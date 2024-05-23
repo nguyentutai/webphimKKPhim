@@ -645,13 +645,13 @@ body {
 
 .list-movie-aside {
     display: flex;
-    justify-content: space-around;
+    gap: 20px;
     flex-wrap: wrap;
     width: 80%;
 }
 
 .movie-load {
-    width: 170px;
+    width: 160px;
     max-width: 100%;
     height: 350px;
     margin-top: 20px;
@@ -661,6 +661,7 @@ body {
 
 .list-movies {
     display: flex;
+    justify-content: space-between;
     margin-top: 10px;
 }
 
@@ -809,7 +810,7 @@ body {
     transition: .5s ease-in-out;
 }
 .pagination {
-    width: 400px;
+    width: 450px;
     max-width: 100%;
     margin: 0 auto;
     text-align: right;
@@ -820,7 +821,7 @@ body {
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    margin: 0 5px;
+    margin: 0 2px;
 }
 
 .page:hover {

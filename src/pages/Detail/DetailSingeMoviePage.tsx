@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import ArticlePage from "../Home/ArticlePage";
 
+
 const DetailSingeMoviePage = () => {
     const { tenphim } = useParams();
     const [movies, setMovies] = useState<any | null>(null);
