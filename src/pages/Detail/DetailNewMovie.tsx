@@ -74,7 +74,7 @@ const DetailNewMovie = () => {
                         <div className="detail-movie-aside">
                             <div className="detail-movie-chidren-aside">
                                 <div className="detail-movie-image">
-                                    <img src={movies?.movie?.poster_url} alt="" />
+                                    <img src={movies?.movie?.poster_url} alt={movies?.movie?.name} />
                                 </div>
                                 <div className="detail-movie-content">
                                     <div className="detail-movie-name">
@@ -136,11 +136,11 @@ const DetailNewMovie = () => {
                     <div className="detail-movie-aside">
                         <div className="detail-movie-chidren-aside">
                             <div className="detail-movie-image">
-                                <img src={movies?.movie?.poster_url} alt="" />
+                                <img src={movies?.movie?.poster_url} alt={movies?.movie?.name} />
                             </div>
                             <div className="detail-movie-content">
                                 <div className="detail-movie-name">
-                                    <h3>{movies?.movie?.name}</h3>
+                                    <h1>{movies?.movie?.name}</h1>
                                 </div>
                                 <div className="detail-movie-status">
                                     <p>Trạng thái: {movies?.movie?.lang}</p>

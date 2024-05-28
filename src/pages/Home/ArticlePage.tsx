@@ -53,7 +53,7 @@ const ArticlePage = () => {
                 {movies.slice(0, displayedMovies).map((movie, index) => (
                     <Link to={`/phimchieurap/${movie.slug}`} className="movie-screen" key={index}>
                         <div className="screen-image">
-                            <img src={`https://img.phimapi.com/${movie.poster_url}`} alt="" />
+                            <img src={`https://img.phimapi.com/${movie.poster_url}`} alt={movie.name} />
                         </div>
                         <div className="screen-content">
                             <div className="screen-content-name">

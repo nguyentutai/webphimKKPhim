@@ -453,7 +453,7 @@ const ListMovieSinge = () => {
                             movies.map((movie: IMovie, index: any) => (
                                 <div className="item-movie" key={index}>
                                     <div className="item-movie-image">
-                                        <img src={`https://img.phimapi.com/${movie.poster_url}`} alt="" />
+                                        <img src={`https://img.phimapi.com/${movie.poster_url}`} alt={movie.name} />
                                     </div>
                                     <div className="item-movie-title">
                                         <p>{movie.name}</p>
@@ -469,10 +469,10 @@ const ListMovieSinge = () => {
                         ) : (
                             <div className="load-movie-false">
                                 <div className="chidren-load-movie-false">
-                                    <img src="../logo/logoKKPhim.png" alt="" />
+                                    <img src="../logo/logoKKPhim.png" alt="logo kkphim" />
                                 </div>
                                 <p>Rất tiếc, KKPhim không tìm thấy kết quả phụ hợp</p>
-                                <img className="mat-buon" src="../logo/mat-buon.png" alt="" />
+                                <img className="mat-buon" src="../logo/mat-buon.png" alt="mat buon" />
                                 <button onClick={handleReset}>Nhấn vào đây để quay lại</button>
                             </div>
                         )}

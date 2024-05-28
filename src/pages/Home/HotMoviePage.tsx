@@ -112,7 +112,7 @@ const Hotmovies = () => {
                             return (
                                 <div className="movie24" key={index}>
                                     <div className="movie24-image">
-                                        <img src={`https://img.phimapi.com/${movie.poster_url}`} alt="" />
+                                        <img src={`https://img.phimapi.com/${movie.poster_url}`} alt={movie.name} />
                                         <Link to={`phimhot/${movie.slug}`} className="movie-title-video">
                                             <i className="fa-regular fa-circle-play"></i>
                                         </Link>
