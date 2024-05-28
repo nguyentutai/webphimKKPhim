@@ -25,20 +25,15 @@ const ListMovieSinge = () => {
     };
 
     useEffect(() => {
-        const fetchMovies = async () => {
+        (async () => {
             setLoading(true);
             let url = `https://phimapi.com/v1/api/danh-sach/phim-le?page=${page}`;
-
-            if (year !== null) url += `&year=${year}`;
-            if (country !== null) url += `&country=${country}`;
-
             try {
                 const response = await fetch(url);
                 const data = await response.json();
                 const filteredMovies = data.data.items.filter((item: IMovie) => {
                     return (!year || item.year == year) && (!country || item.country && item.country.some((countryItem: any) => countryItem.slug === country));
                 });
-
                 setMovies(filteredMovies);
                 setTotalPages(data.data.params.pagination.totalPages);
             } catch (error) {
@@ -46,9 +41,7 @@ const ListMovieSinge = () => {
             } finally {
                 setLoading(false);
             }
-        };
-
-        fetchMovies();
+        })();
     }, [year, country, page]);
 
     useEffect(() => {

@@ -26,12 +26,14 @@
     .detail-movie-aside {
         width: 100%;
     }
+
     .list-movie-aside {
         width: 100%;
         justify-content: space-around;
     }
 
-    .year,.country {
+    .year,
+    .country {
         padding: 10px 35px;
     }
 }
@@ -95,6 +97,23 @@
     .search-content p {
         font-size: 11px;
     }
+
+    .page {
+        padding: 4px 7px;
+        font-size: 11px;
+    }
+
+    .next-page,
+    .pre-page {
+        padding: 4px 7px;
+        font-size: 11px;
+        cursor: pointer;
+    }
+    .count-page {
+        margin-left: 10px;
+        font-size: 11px;
+        font-weight: 700;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -113,5 +132,21 @@
 
     .search-content p {
         font-size: 11px;
+    }
+    .page {
+        padding: 4px 7px;
+        font-size: 11px;
+    }
+
+    .next-page,
+    .pre-page {
+        padding: 4px 7px;
+        font-size: 11px;
+        cursor: pointer;
+    }
+    .count-page {
+        margin-left: 10px;
+        font-size: 11px;
+        font-weight: 700;
     }
 }

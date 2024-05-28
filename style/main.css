@@ -102,7 +102,6 @@ body {
 .search-image img {
     width: 50px !important;
     height: 70px !important;
-    max-width: 100%;
     margin-bottom: -5px;
     border-radius: 10px 0 0 10px;
 }
@@ -645,6 +644,7 @@ body {
 
 .list-movie-aside {
     display: flex;
+    justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
     width: 80%;
